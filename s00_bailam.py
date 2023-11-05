@@ -31,7 +31,11 @@ tongtienmuahang(None)                   | None
 
 #region bailam
 def tongtienmuahang(gia_truoc_thue):
-  return 'todo'
+
+  tien_thue = gia_truoc_thue * 0.1
+  tien_thue = int(tien_thue)
+  tong_tien = gia_truoc_thue + tien_thue
+  return tong_tien
 
 
 if __name__=='__main__':
